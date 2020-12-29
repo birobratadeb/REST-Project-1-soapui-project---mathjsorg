@@ -1,0 +1,437 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:soapui-project id="2391b412-14bd-4284-8609-7a95880873d0" activeEnvironment="Default environment" name="REST Project 1" soapui-version="5.6.0" abortOnError="false" runType="SEQUENTIAL" resourceRoot="" encryptionMode="Not encrypted" updated="3.5.0 2020-11-11T18:12:01Z" xmlns:con="http://eviware.com/soapui/config">
+  <con:settings/>
+  <con:interface xsi:type="con:RestService" id="69a9273c-ec1b-4ff3-af2a-f0fc85087f86" wadlVersion="http://wadl.dev.java.net/2009/02" name="http://api.mathjs.org" type="rest" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <con:settings>
+      <con:setting id="CreateWadlDocumentationAction@report-directory">C:\SoapUI</con:setting>
+    </con:settings>
+    <con:definitionCache type="TEXT" rootPart=""/>
+    <con:endpoints>
+      <con:endpoint>http://api.mathjs.org</con:endpoint>
+    </con:endpoints>
+    <con:resource name="V4" path="/v4/" id="a7a988f7-2312-4675-80df-acde8a9f4b3b">
+      <con:settings/>
+      <con:parameters/>
+      <con:method name="V4 1" id="3f611a73-4791-410b-a87d-6cf33901e8eb" method="POST">
+        <con:settings/>
+        <con:parameters/>
+        <con:representation type="FAULT">
+          <con:mediaType>text/html; charset=utf-8</con:mediaType>
+          <con:status>400 500</con:status>
+          <con:params/>
+          <con:element>html</con:element>
+        </con:representation>
+        <con:representation type="RESPONSE">
+          <con:mediaType>text/html; charset=utf-8</con:mediaType>
+          <con:status>200</con:status>
+          <con:params/>
+          <con:element>html</con:element>
+        </con:representation>
+        <con:representation type="REQUEST">
+          <con:mediaType>application/json</con:mediaType>
+          <con:params/>
+        </con:representation>
+        <con:representation type="RESPONSE">
+          <con:mediaType>application/json; charset=utf-8</con:mediaType>
+          <con:status>200</con:status>
+          <con:params/>
+          <con:element xmlns:v4="http://api.mathjs.org/v4/">v4:Response</con:element>
+        </con:representation>
+        <con:representation type="REQUEST">
+          <con:mediaType>application/xml</con:mediaType>
+          <con:params/>
+        </con:representation>
+        <con:representation type="FAULT">
+          <con:mediaType>application/json; charset=utf-8</con:mediaType>
+          <con:status>400</con:status>
+          <con:params/>
+          <con:element xmlns:v4="http://api.mathjs.org/v4/">v4:Fault</con:element>
+        </con:representation>
+        <con:request name="Req 1" id="1de2d26a-2191-44d8-a75e-92f9703dee45" mediaType="application/json" postQueryString="false">
+          <con:settings>
+            <con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting>
+          </con:settings>
+          <con:endpoint>http://api.mathjs.org</con:endpoint>
+          <con:request/>
+          <con:originalUri>http://api.mathjs.org/v4/</con:originalUri>
+          <con:credentials>
+            <con:selectedAuthProfile>No Authorization</con:selectedAuthProfile>
+            <con:authType>No Authorization</con:authType>
+          </con:credentials>
+          <con:jmsConfig JMSDeliveryMode="PERSISTENT"/>
+          <con:jmsPropertyConfig/>
+          <con:parameters/>
+          <con:parameterOrder/>
+        </con:request>
+        <con:request name="Req 2" id="aea9da3d-111e-4f55-8041-b4a412e2f4ce" mediaType="application/json" postQueryString="false">
+          <con:settings>
+            <con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting>
+          </con:settings>
+          <con:endpoint>http://api.mathjs.org</con:endpoint>
+          <con:request/>
+          <con:originalUri>http://api.mathjs.org/v4/</con:originalUri>
+          <con:credentials>
+            <con:selectedAuthProfile>No Authorization</con:selectedAuthProfile>
+            <con:authType>No Authorization</con:authType>
+          </con:credentials>
+          <con:jmsConfig JMSDeliveryMode="PERSISTENT"/>
+          <con:jmsPropertyConfig/>
+          <con:parameters/>
+          <con:parameterOrder/>
+        </con:request>
+        <con:request name="Req 3" id="8276d425-3a7a-4a19-9146-bb1209a0b63a" mediaType="application/json" postQueryString="false">
+          <con:settings>
+            <con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting>
+          </con:settings>
+          <con:endpoint>http://api.mathjs.org</con:endpoint>
+          <con:request/>
+          <con:originalUri>http://api.mathjs.org/v4/</con:originalUri>
+          <con:credentials>
+            <con:selectedAuthProfile>No Authorization</con:selectedAuthProfile>
+            <con:authType>No Authorization</con:authType>
+          </con:credentials>
+          <con:jmsConfig JMSDeliveryMode="PERSISTENT"/>
+          <con:jmsPropertyConfig/>
+          <con:parameters/>
+          <con:parameterOrder/>
+        </con:request>
+        <con:request name="Req 4" id="ae56da45-31db-421b-9373-ee96371330f9" mediaType="application/json">
+          <con:settings>
+            <con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting>
+          </con:settings>
+          <con:endpoint>http://api.mathjs.org</con:endpoint>
+          <con:request/>
+          <con:originalUri>http://api.mathjs.org/v4/</con:originalUri>
+          <con:credentials>
+            <con:selectedAuthProfile>No Authorization</con:selectedAuthProfile>
+            <con:authType>No Authorization</con:authType>
+          </con:credentials>
+          <con:jmsConfig JMSDeliveryMode="PERSISTENT"/>
+          <con:jmsPropertyConfig/>
+          <con:parameters/>
+          <con:parameterOrder/>
+        </con:request>
+        <con:request name="Req 5" id="7834caf0-8510-4290-a5df-283ad2a4ca63" mediaType="application/json" postQueryString="false">
+          <con:settings>
+            <con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting>
+          </con:settings>
+          <con:endpoint>http://api.mathjs.org</con:endpoint>
+          <con:request>{
+  "expr": [
+    "a = 1.2 * (2 + 4.5)",
+    "a / 2",
+    "5.08 cm in inch",
+    "sin(45 deg) ^ 2",
+    "9 / 3 + 2i",
+    "b = [-1, 2; 3, 1]",
+    "det(b)"
+  ],
+  "precision": 14
+}</con:request>
+          <con:originalUri>http://api.mathjs.org/v4/</con:originalUri>
+          <con:credentials>
+            <con:selectedAuthProfile>No Authorization</con:selectedAuthProfile>
+            <con:authType>No Authorization</con:authType>
+          </con:credentials>
+          <con:jmsConfig JMSDeliveryMode="PERSISTENT"/>
+          <con:jmsPropertyConfig/>
+          <con:parameters/>
+          <con:parameterOrder/>
+        </con:request>
+      </con:method>
+    </con:resource>
+  </con:interface>
+  <con:testSuite id="f2f84620-1bf0-412f-8bc8-a036d08a88f8" name="TestSuite1">
+    <con:description>TestSuite generated for REST Service [http://api.mathjs.org]</con:description>
+    <con:settings/>
+    <con:savedRecentRuns>1</con:savedRecentRuns>
+    <con:runType>SEQUENTIAL</con:runType>
+    <con:testCase id="4cabcc9b-50e1-4a33-8007-e5d48be87d52" failOnError="true" failTestCaseOnErrors="true" keepSession="false" maxResults="0" name="TestCase1" searchProperties="true">
+      <con:description>TestCase generated for REST Resource [V4] located at [/v4/]</con:description>
+      <con:settings/>
+      <con:savedRecentRuns>1</con:savedRecentRuns>
+      <con:testStep type="datasource" name="DataSource" id="177caefa-8120-4c21-921a-a2931e4532f6">
+        <con:settings/>
+        <con:config xsi:type="con:DataSourceStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+          <con:dataSource type="Excel">
+            <con:configuration>
+              <file>C:/SoapUI/Division.xlsx</file>
+              <worksheet>Sheet1</worksheet>
+              <cell>A2</cell>
+              <ignoreEmpty>false</ignoreEmpty>
+              <evaluateFormulas>false</evaluateFormulas>
+            </con:configuration>
+          </con:dataSource>
+          <con:shared>true</con:shared>
+          <con:restartShared>true</con:restartShared>
+          <con:property>Numerator</con:property>
+          <con:property>Denominator</con:property>
+          <con:restartOnRun>true</con:restartOnRun>
+        </con:config>
+      </con:testStep>
+      <con:testStep type="restrequest" name="Division" id="4e462841-c0de-44b6-b3e8-81625fbb0d3f">
+        <con:settings/>
+        <con:config service="http://api.mathjs.org" resourcePath="/v4/" methodName="V4 1" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+          <con:restRequest name="Division" id="7834caf0-8510-4290-a5df-283ad2a4ca63" mediaType="application/json" postQueryString="false">
+            <con:settings>
+              <con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting>
+            </con:settings>
+            <con:endpoint>http://api.mathjs.org</con:endpoint>
+            <con:request>{\r
+   "expr" : [\r
+      "${DataSource#Numerator}/${DataSource#Denominator}"\r
+   ],\r
+   "precision" : "3"\r
+}</con:request>
+            <con:originalUri>http://api.mathjs.org/v4/</con:originalUri>
+            <con:assertion type="Valid HTTP Status Codes" id="f93c7387-a2dd-4ca4-8004-c75de1b8ad58" name="Valid HTTP Status Codes">
+              <con:settings/>
+              <con:configuration>
+                <codes>200</codes>
+              </con:configuration>
+            </con:assertion>
+            <con:assertion type="Response SLA Assertion" id="8dda0ed9-600b-408f-9e94-cf1dcc1dc4f3" name="Response SLA">
+              <con:configuration>
+                <SLA>3000</SLA>
+              </con:configuration>
+            </con:assertion>
+            <con:assertion type="Invalid HTTP Status Codes" id="6f39cecb-a5ea-4b1a-bf4d-1f29978273bf" name="Invalid HTTP Status Codes">
+              <con:configuration>
+                <codes>201,301,401,501</codes>
+              </con:configuration>
+            </con:assertion>
+            <con:credentials>
+              <con:selectedAuthProfile>No Authorization</con:selectedAuthProfile>
+              <con:authType>No Authorization</con:authType>
+            </con:credentials>
+            <con:jmsConfig JMSDeliveryMode="PERSISTENT"/>
+            <con:jmsPropertyConfig/>
+            <con:parameters/>
+            <con:parameterOrder/>
+          </con:restRequest>
+        </con:config>
+      </con:testStep>
+      <con:testStep type="transfer" name="PropertyTransfer" id="00018e96-a50e-4dec-b8ab-372fce8f2e66">
+        <con:settings/>
+        <con:config xsi:type="con:PropertyTransfersStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+          <con:transfers setNullOnMissingSource="true" transferTextContent="true" failOnError="true" entitize="false" ignoreEmpty="false" transferToAll="false" transferChildNodes="false">
+            <con:name>Quotient</con:name>
+            <con:sourceType>Response</con:sourceType>
+            <con:sourceStep>Division</con:sourceStep>
+            <con:sourcePath>$['result'][0]</con:sourcePath>
+            <con:targetType>Quotient</con:targetType>
+            <con:targetStep>DataSink</con:targetStep>
+            <con:targetPath/>
+            <con:type>JSONPATH</con:type>
+            <con:upgraded>true</con:upgraded>
+          </con:transfers>
+        </con:config>
+      </con:testStep>
+      <con:testStep type="datasink" name="DataSink" id="036240fa-fd1c-4ebd-ae77-7171a60f8522">
+        <con:settings/>
+        <con:config xsi:type="con:DataSinkStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+          <con:dataSink type="Excel">
+            <con:configuration>
+              <file/>
+              <outfile>C:/SoapUI/Division.xlsx</outfile>
+              <worksheet>Sheet1</worksheet>
+              <cell>C2</cell>
+              <evaluateFormulas>false</evaluateFormulas>
+              <append>false</append>
+            </con:configuration>
+          </con:dataSink>
+          <con:properties>
+            <con:property>
+              <con:name>Quotient</con:name>
+              <con:value>1.53</con:value>
+            </con:property>
+          </con:properties>
+        </con:config>
+      </con:testStep>
+      <con:testStep type="datasourceloop" name="DataSource Loop" id="f4102e6b-45de-4fc5-b487-5dcf5732b59b">
+        <con:settings/>
+        <con:config>
+          <dataSourceStep>DataSource</dataSourceStep>
+          <targetStep>Division</targetStep>
+          <discardResults>true</discardResults>
+        </con:config>
+      </con:testStep>
+      <con:testStep type="transfer" name="PropertyTransfer 1" id="fa28da7d-1c31-42c1-81ed-5c3f5be4fb0a" disabled="true">
+        <con:settings/>
+        <con:config xsi:type="con:PropertyTransfersStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+          <con:transfers setNullOnMissingSource="true" transferTextContent="true" failOnError="true" ignoreEmpty="false" transferToAll="false" entitize="false" transferChildNodes="false">
+            <con:name>Quotient</con:name>
+            <con:sourceType>Response</con:sourceType>
+            <con:sourceStep>Division</con:sourceStep>
+            <con:sourcePath>$['result'][0]</con:sourcePath>
+            <con:targetType>Quotient</con:targetType>
+            <con:targetStep>DataSink</con:targetStep>
+            <con:targetPath/>
+            <con:type>JSONPATH</con:type>
+            <con:upgraded>true</con:upgraded>
+          </con:transfers>
+        </con:config>
+      </con:testStep>
+      <con:testStep type="groovy" name="Groovy Script" id="18f1abb5-831e-440d-b952-f4d7692ea78c" disabled="true">
+        <con:settings/>
+        <con:config>
+          <script>log.info context.expand('${#Project#msg}')
+
+log.info context.expand('${#TestSuite#msg}')
+
+log.info context.expand('${#TestCase#msg}')
+
+log.info context.expand('${Properties#msg}')</script>
+        </con:config>
+      </con:testStep>
+      <con:testStep type="properties" name="Properties" id="41e6150b-d573-461d-85dd-ba94a7984889" disabled="true">
+        <con:settings/>
+        <con:config xsi:type="con:PropertiesStep" saveFirst="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+          <con:properties>
+            <con:property>
+              <con:name>msg</con:name>
+              <con:value>This is a Test Step Level message</con:value>
+            </con:property>
+          </con:properties>
+        </con:config>
+      </con:testStep>
+      <con:testStep type="properties" name="Properties 1" id="ffe1bc47-7012-4a19-b274-1a40366997ca" disabled="true">
+        <con:settings/>
+        <con:config xsi:type="con:PropertiesStep" saveFirst="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+          <con:properties/>
+        </con:config>
+      </con:testStep>
+      <con:properties>
+        <con:property>
+          <con:name>msg</con:name>
+          <con:value>This is a Test Case Level message</con:value>
+        </con:property>
+        <con:property>
+          <con:name>n1</con:name>
+          <con:value>2</con:value>
+        </con:property>
+        <con:property>
+          <con:name>n2</con:name>
+          <con:value>7</con:value>
+        </con:property>
+        <con:property>
+          <con:name>n3</con:name>
+          <con:value>3</con:value>
+        </con:property>
+        <con:property>
+          <con:name>n4</con:name>
+          <con:value>2</con:value>
+        </con:property>
+        <con:property>
+          <con:name>n5</con:name>
+          <con:value>3</con:value>
+        </con:property>
+        <con:property>
+          <con:name>n6</con:name>
+          <con:value>2</con:value>
+        </con:property>
+        <con:property>
+          <con:name>n7</con:name>
+          <con:value>3</con:value>
+        </con:property>
+        <con:property>
+          <con:name>n8</con:name>
+          <con:value>3</con:value>
+        </con:property>
+        <con:property>
+          <con:name>n9</con:name>
+          <con:value>2</con:value>
+        </con:property>
+        <con:property>
+          <con:name>n10</con:name>
+          <con:value>3</con:value>
+        </con:property>
+        <con:property>
+          <con:name>n11</con:name>
+          <con:value>4</con:value>
+        </con:property>
+        <con:property>
+          <con:name>n12</con:name>
+          <con:value>4</con:value>
+        </con:property>
+        <con:property>
+          <con:name>n13</con:name>
+          <con:value>45</con:value>
+        </con:property>
+      </con:properties>
+      <con:reportParameters/>
+      <con:breakPoints>
+        <con:testStepId>4e462841-c0de-44b6-b3e8-81625fbb0d3f</con:testStepId>
+        <con:status>NONE</con:status>
+        <con:properties/>
+      </con:breakPoints>
+      <con:breakPoints>
+        <con:testStepId>f4102e6b-45de-4fc5-b487-5dcf5732b59b</con:testStepId>
+        <con:status>NONE</con:status>
+        <con:properties/>
+      </con:breakPoints>
+      <con:breakPoints>
+        <con:testStepId>036240fa-fd1c-4ebd-ae77-7171a60f8522</con:testStepId>
+        <con:status>NONE</con:status>
+        <con:properties/>
+      </con:breakPoints>
+      <con:breakPoints>
+        <con:testStepId>18f1abb5-831e-440d-b952-f4d7692ea78c</con:testStepId>
+        <con:status>NONE</con:status>
+        <con:properties/>
+      </con:breakPoints>
+      <con:breakPoints>
+        <con:testStepId>fa28da7d-1c31-42c1-81ed-5c3f5be4fb0a</con:testStepId>
+        <con:status>NONE</con:status>
+        <con:properties/>
+      </con:breakPoints>
+      <con:breakPoints>
+        <con:testStepId>177caefa-8120-4c21-921a-a2931e4532f6</con:testStepId>
+        <con:status>NONE</con:status>
+        <con:properties/>
+      </con:breakPoints>
+      <con:breakPoints>
+        <con:testStepId>00018e96-a50e-4dec-b8ab-372fce8f2e66</con:testStepId>
+        <con:status>NONE</con:status>
+        <con:properties/>
+      </con:breakPoints>
+      <con:breakPoints>
+        <con:testStepId>41e6150b-d573-461d-85dd-ba94a7984889</con:testStepId>
+        <con:status>NONE</con:status>
+        <con:properties/>
+      </con:breakPoints>
+      <con:breakPoints>
+        <con:testStepId>ffe1bc47-7012-4a19-b274-1a40366997ca</con:testStepId>
+        <con:status>NONE</con:status>
+        <con:properties/>
+      </con:breakPoints>
+    </con:testCase>
+    <con:properties>
+      <con:property>
+        <con:name>msg</con:name>
+        <con:value>This is a Suite Level message</con:value>
+      </con:property>
+    </con:properties>
+    <con:reportParameters/>
+  </con:testSuite>
+  <con:savedRecentRuns>1</con:savedRecentRuns>
+  <con:requirements/>
+  <con:properties>
+    <con:property>
+      <con:name>msg</con:name>
+      <con:value>This is a Project Level message</con:value>
+    </con:property>
+  </con:properties>
+  <con:wssContainer/>
+  <con:databaseConnectionContainer/>
+  <con:jmsConnectionContainer/>
+  <con:oAuth2ProfileContainer/>
+  <con:oAuth1ProfileContainer/>
+  <con:reporting>
+    <con:xmlTemplates/>
+    <con:parameters/>
+  </con:reporting>
+  <con:sensitiveInformation/>
+  <con:authRepository/>
+  <con:tags/>
+</con:soapui-project>
